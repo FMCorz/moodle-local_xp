@@ -22,6 +22,7 @@ Features & how-to
   * [Good to know](#good-to-know-3)
 * [Change the meaning of points](#experience-points-substitution)
   * [Good to know](#good-to-know-4)
+* [Export the report](#export-the-report)
 * [More resilient cheat guard](#resilient-cheat-guard)
 * [Enable completion in Moodle](#how-to-enable-completion-in-moodle)
 
@@ -217,6 +218,20 @@ After saving the form, you can scroll down to the bottom of the page to discover
 ### Good to know
 
 * Varying badges and symbols between courses/semesters can help fight the monotony that can arise when re-using the same concepts with the same student groups.
+
+
+----
+
+Export the report
+-----------------
+
+Whether you have a lot of students, you want to run some statistics on your students' progress, or you plan on using this information in class, it is useful to be able to export the report. Navigate to the __report's page__.
+
+![Screenshot](pix/nav-report.png)
+
+At the bottom of the page, below the table, you will find a menu for selecting the format you wish to download the report it. Make your choice, and click __Download__.
+
+![Screenshot](pix/report-download-form.png)
 
 
 ----
