@@ -4,11 +4,18 @@
 What is it?
 ===========
 
-Level up! is a [gamification plugin]({{ site.moodle_url }}) for Moodle. It allows students to earn experience points and level up as they participate in the courses. The add-on _Level up! Plus_ unlocks additional features described below.
+Level up! is a [gamification plugin]({{ site.levelup_url }}) for Moodle. It allows students to earn experience points and level up as they participate in the courses. The add-on _Level up! Plus_ unlocks additional features..
 
-Features & how-to
+Table of contents
 =================
 
+Installation
+
+* [Read first](#read-first)
+* [Manual installation](#manual-installation)
+* [Zip upload](#zip-upload)
+
+Features & how-to
 
 * [Reward for activity completion](#activity-completion)
   * [Specific activity only](#reward-specific-activities-only)
@@ -27,6 +34,45 @@ Features & how-to
 * [Enable completion in Moodle](#how-to-enable-completion-in-moodle)
 
 ----
+
+Installation
+============
+
+Read first
+----------
+
+* The latest version of [Level up! (free)]({{ site.moodle_url }}) should be installed.
+* The free version is downloadable from [Moodle.org]({{ site.moodle_url }}).
+* The free version is a plugin of type `block`, those go into the `blocks` directory.
+* The _Plus_ version is a plugin of type `local`, those go into the `local` directory.
+* General plugin installation documentation: [Installing plugins (Moodle documentation)](https://docs.moodle.org/en/Installing_plugins).
+
+Manual installation
+-------------------
+
+1. Download the _zip_ file that we have made available for you, it should be named `local_xp.zip`.
+2. Extract the content of the zip file in the folder `local` of your Moodle folder.
+3. If you have extracted the content at the right place, the following file should be present: `local/xp/version.php`.
+4. Visit the _admin notifications_ page to trigger the installation.
+  * Navigate to _Site administration > Notifications_.
+  * Or directly visit `moodle.example.com/admin/index.php`.
+5. Follow the Moodle installation process.
+
+More information: [Installing plugins (Moodle documentation)](https://docs.moodle.org/en/Installing_plugins).
+
+Zip upload
+----------
+
+This method is not permitted on all Moodle installations, but if it is, follow those simple steps:
+
+1. Download the _zip_ file that we have made available for you, it should be named `local_xp.zip`.
+2. Login to your Moodle site and navigate to _Site administration > Plugins > Install plugins_.
+3. Upload the _zip_ file in the form, and follow the steps.
+
+More information: [Installing plugins (Moodle documentation)](https://docs.moodle.org/en/Installing_plugins).
+
+Features & how-to
+=================
 
 Activity completion
 -------------------
