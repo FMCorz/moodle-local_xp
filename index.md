@@ -22,13 +22,15 @@ Features & how-to
   * [Good to know](#good-to-know)
 * [Reward for course completion](#course-completion)
   * [Good to know](#good-to-know-1)
-* [Limit students rewards per day](#limit-students-rewards-per-day)
+* [Moodle Mobile App](#moodle-mobile-app)
   * [Good to know](#good-to-know-2)
+* [Limit students rewards per day](#limit-students-rewards-per-day)
+  * [Good to know](#good-to-know-3)
 * [Additional level badges](#level-badges-themes)
   * [Custom badges](#custom-badges)
-  * [Good to know](#good-to-know-3)
-* [Change the meaning of points](#experience-points-substitution)
   * [Good to know](#good-to-know-4)
+* [Change the meaning of points](#experience-points-substitution)
+  * [Good to know](#good-to-know-5)
 * [Export the report](#export-the-report)
 * [More resilient cheat guard](#resilient-cheat-guard)
 * [Enable completion in Moodle](#how-to-enable-completion-in-moodle)
@@ -177,6 +179,45 @@ After changing the points to be earned to `250`, click on __+ Add a condition__ 
 ### Good to know
 
 * Points are not awarded instantly, they require [Moodle cron](https://docs.moodle.org/en/Cron) to run.
+
+----
+
+
+Moodle Mobile app
+-----------------
+
+Viewing their level and progress, the leaderboard and the information page is possible possible in the Moodle Mobile app. No configuration is required, as soon as _Level up! Plus_ is installed, the mobile app will have those additional features.
+
+When there is __one block for the whole site__, _Level up!_ is accessible from the side menu:
+
+![Screenshot](pix/mobile-system.png)
+
+When there is __one block per course__, _Level up!_ is accessible from two different locations:
+
+The dropdown menu from the course's main page.
+
+![Screenshot](pix/mobile-course-dropdown.png)
+
+The dropdown menu from the courses overview screen.
+
+![Screenshot](pix/mobile-course-dropdown-2.png)
+
+Note that the _course overview_ one may not be visible the first time you access _Level up!_ via the app.
+
+
+### Good to know
+
+* Moodle 3.1 or later is required
+* A recent version of the official Moodle Mobile app is required.
+  * If using an official _branded_ Moodle Mobile app, ensure that its version is recent.
+* From Moodle 3.3, check that _Level up!_ is __not__ disabled in _Site administration > Mobile App > Mobile features_. The setting's name is `tool_mobile | disabledfeatures`.
+* The _Level up!_ block must have been added to be visible in the app.
+  * To the frontpage or dashboard when there is one block per site,
+  * Or to the relevant courses.
+* It may take a few moments for _Level up!_ to be loaded in the app the first time.
+* Changing site and logging back in (_Side menu > Change site_) may help the app being aware of the existence of _Level up!_.
+* Waiting 5 minutes may allow for local caches to expire.
+
 
 ----
 

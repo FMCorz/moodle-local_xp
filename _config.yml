@@ -42,5 +42,6 @@ theme: jekyll-theme-minimal
 #   - vendor/gems/
 #   - vendor/ruby/
 
+branchup_url: http://branchup.tech
 moodle_url: https://moodle.org/plugins/block_xp
 levelup_url: http://levelup.branchup.tech
