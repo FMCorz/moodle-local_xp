@@ -27,6 +27,10 @@
           <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
+        {% if site.levelup_url %}
+          <p class="view"><a href="{{ site.levelup_url }}">Level up! website</a></p>
+        {% endif %}
+
         {% if site.moodle_url %}
           <p class="view"><a href="{{ site.moodle_url }}">Level up! on Moodle.org</a></p>
         {% endif %}
@@ -46,6 +50,10 @@
       </section>
       <footer>
         <p><small>Contact us at: levelup@branchup.tech</small></p>
+
+        <p>
+          <a href="{{ site.branchup_url }}"><img src="{{ site.branchup_logo_url }}" alt="Branch Up Logo" style="border: 0; height: 20px;"></a>
+        </p>
 
         {% if site.github.is_project_page %}
         <!-- <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p> -->

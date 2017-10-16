@@ -198,11 +198,11 @@ The dropdown menu from the course's main page.
 
 ![Screenshot](pix/mobile-course-dropdown.png)
 
-The dropdown menu from the courses overview screen.
+The dropdown menu from the _Course overview_ screen.
 
 ![Screenshot](pix/mobile-course-dropdown-2.png)
 
-Note that the _course overview_ one may not be visible the first time you access _Level up!_ via the app.
+Note that the _Course overview_ one may not be visible the first time you access _Level up!_ via the app.
 
 
 ### Good to know
